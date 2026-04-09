@@ -1,0 +1,7 @@
+{
+  "track_name": "Red Bull Ring",
+  "slug": "red_bull_ring",
+  "source_repo": "https://github.com/Keano860/track-database",
+  "map_file": "map.png",
+  "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later."
+}

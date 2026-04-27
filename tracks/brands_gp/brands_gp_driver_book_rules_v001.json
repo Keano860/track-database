@@ -1,0 +1,332 @@
+{
+  "track_slug": "brands_gp",
+  "track_name": "Brands Hatch GP",
+  "source": {
+    "document": "2025 Brands Hatch GP Driver Booklet.pdf",
+    "source_type": "driver_booklet",
+    "version": "v001"
+  },
+  "general": {
+    "circuit_character": [
+      "Undulating circuit where rhythm and flow are important",
+      "Few overtaking opportunities so qualifying position is critical",
+      "The GP loop is where a lot of time can be found",
+      "Confidence is required through the GP loop",
+      "Good footwork rewards confidence"
+    ],
+    "build_lap_notes": [
+      "Manage the gap on build laps",
+      "A tow is not essential"
+    ],
+    "track_limits": {
+      "monitored_exits": [
+        "T2",
+        "T3"
+      ],
+      "notes": [
+        "Track limit sensors are on the exit of T2 and T3"
+      ]
+    }
+  },
+  "corners": {
+    "T1": {
+      "name": "Paddock Hill",
+      "target_gear": 5,
+      "gear_change": "6th to 5th",
+      "priority": "rotation_then_apex_throttle",
+      "driving_focus": [
+        "Bring the car over to the left across the start-finish line",
+        "Point straight at the marshals' post",
+        "Getting the car straight for braking is more important than being on the white line",
+        "Wait until over the crest before braking",
+        "Drop the brake and turn in at the access road on the left",
+        "Be back to full throttle by the apex",
+        "You can run two wheels on the exit kerb",
+        "Do not put the whole car on the exit kerb or it will bottom out and lose speed",
+        "Get the rotation done before the apex",
+        "Have confidence that the compression will support you"
+      ],
+      "analysis_rules": {
+        "expected_brake_timing": "after_crest",
+        "expected_rotation_timing": "before_apex",
+        "expected_throttle_timing": "flat_by_apex",
+        "expected_exit_kerb_limit": "two_wheels_only",
+        "common_errors": [
+          "Braking before the crest",
+          "Not straight enough for braking",
+          "Holding the brake too deep and carrying understeer",
+          "Not back to full throttle by the apex",
+          "Using too much exit kerb and bottoming"
+        ]
+      }
+    },
+    "T2": {
+      "name": "Druids",
+      "target_gear": 2,
+      "gear_change": "6th to 2nd",
+      "priority": "rotation_and_exit",
+      "driving_focus": [
+        "Brake hard in a straight line before the bridge point",
+        "Do not use the apex kerb",
+        "You can vee the corner a little but keep the car within about 1m of the kerb",
+        "Be patient getting back to power",
+        "Focus on good rotation to straighten the car",
+        "Use the road to the white line on exit",
+        "Keep pulling right on exit to prepare for turn 3",
+        "Be very direct with the corner",
+        "Focus on braking with a flat car",
+        "Have a good bleed off"
+      ],
+      "analysis_rules": {
+        "expected_brake_shape": "hard_straight_then_bleed",
+        "expected_apex_kerb_usage": "avoid",
+        "expected_throttle_timing": "patient_until_rotated",
+        "expected_exit_priority": true,
+        "common_errors": [
+          "Picking up throttle too early and creating understeer or a snap",
+          "Poor rotation leaving the car crooked on exit",
+          "Using the apex kerb",
+          "Not getting the car flat for braking"
+        ]
+      }
+    },
+    "T3": {
+      "name": "Graham Hill",
+      "target_gear": 4,
+      "gear_change": "not stated",
+      "priority": "quick_rotation_and_exit",
+      "driving_focus": [
+        "Get the car straight for braking and take the load out of it",
+        "A little entry track extension can be used",
+        "Aim to have the middle of the car pointing towards the end of the grandstand",
+        "Use a short sharp brake",
+        "Release the brake as you turn in",
+        "Turn and go",
+        "Be on power by the apex kerb",
+        "You can use a little apex kerb",
+        "You can put a wheel on the exit kerb",
+        "Do not run over the exit kerb because there is a track-limits sensor"
+      ],
+      "analysis_rules": {
+        "expected_brake_shape": "short_sharp",
+        "expected_rotation_style": "quick_rotation",
+        "expected_throttle_timing": "on_power_by_apex",
+        "expected_exit_priority": true,
+        "common_errors": [
+          "Braking with too much lateral load still in the car",
+          "Slow brake release reducing rotation",
+          "Late throttle at the apex",
+          "Overusing the exit kerb and triggering track limits"
+        ]
+      }
+    },
+    "T4": {
+      "name": "Graham Hill",
+      "target_gear": 4,
+      "gear_change": "not stated",
+      "priority": "exit",
+      "driving_focus": [
+        "Brake at the orange marker just after the backslash board",
+        "Start turning in before the end of the kerb",
+        "Be patient and do not turn too early",
+        "The white line is the apex",
+        "Be flat by the apex",
+        "Rotate well before the apex and do not scrub speed on exit",
+        "You can put a wheel on the exit kerb",
+        "Do not run over the exit kerb because there is a track-limits sensor",
+        "Time gained here is on exit, not entry"
+      ],
+      "analysis_rules": {
+        "expected_turn_in": "patient_not_early",
+        "expected_throttle_timing": "flat_by_apex",
+        "expected_exit_priority": true,
+        "common_errors": [
+          "Turning too early",
+          "Still rotating at the apex",
+          "Scrubbing speed on exit",
+          "Trying to gain time on entry instead of exit"
+        ]
+      }
+    },
+    "T5": {
+      "name": "Hawthorns",
+      "target_gear": 6,
+      "gear_change": "not stated",
+      "priority": "maintain_speed_and_confidence",
+      "driving_focus": [
+        "Turn in then lift with a small brake",
+        "Keep the speed up through the corner",
+        "Do not turn in too early",
+        "Turning too early delays throttle pickup and increases instability",
+        "Start progressively squeezing on power before the apex",
+        "Avoid touching the inside kerb",
+        "You can put a wheel on the exit kerb",
+        "Pedal inputs and pitch control are key",
+        "The corner is dirty offline so the right line is critical"
+      ],
+      "analysis_rules": {
+        "expected_brake_shape": "small_brake_with_lift",
+        "expected_throttle_timing": "progressive_before_apex",
+        "expected_pitch_control": true,
+        "common_errors": [
+          "Turning too early",
+          "Late throttle pickup",
+          "Too much brake or lift costing speed",
+          "Touching the inside kerb and unsettling the car",
+          "Poor confidence or instability from bad line"
+        ]
+      }
+    },
+    "T6": {
+      "name": "Westfield",
+      "target_gear": 4,
+      "gear_change": "not stated",
+      "priority": "early_rotation_then_exit_settle",
+      "driving_focus": [
+        "Brake at the orange marker just before the orange part of the Armco",
+        "Ensure a flat car while braking",
+        "Bleed off nicely and turn in",
+        "Get rotated before the apex kerb",
+        "Look to get behind the apex kerb",
+        "Pick up power to settle the car on exit",
+        "Use only the red and white exit kerb",
+        "Any more exit kerb risks bottoming out and being unable to get back on track",
+        "Quick early rotation is critical",
+        "As the track drops away on exit it is even more important to get the rotation done early"
+      ],
+      "analysis_rules": {
+        "expected_brake_shape": "flat_then_bleed",
+        "expected_rotation_timing": "before_apex",
+        "expected_throttle_timing": "pickup_to_settle_exit",
+        "expected_exit_kerb_limit": "red_white_only",
+        "common_errors": [
+          "Braking with the car still loaded",
+          "Not rotating early enough",
+          "Delayed throttle on exit",
+          "Using too much exit kerb and bottoming"
+        ]
+      }
+    },
+    "T7": {
+      "name": "Westfield",
+      "target_gear": 5,
+      "gear_change": "not stated",
+      "priority": "controlled_turn_in_and_early_power",
+      "driving_focus": [
+        "Arrive following the arc of the white line",
+        "This allows more controlled turn-in and weight transfer",
+        "Brake just before the orange Armco end",
+        "Feed in the power before the apex to settle the car",
+        "Use the apex kerb",
+        "Run out to the white line using all the track",
+        "Quick early rotation is critical",
+        "As the track drops away on exit it is even more important to get the rotation done early"
+      ],
+      "analysis_rules": {
+        "expected_entry_line": "follow_white_line_arc",
+        "expected_rotation_timing": "early",
+        "expected_throttle_timing": "before_apex",
+        "expected_exit_use": "all_track",
+        "common_errors": [
+          "Too abrupt a turn-in from poor approach line",
+          "Late rotation",
+          "Not feeding power before the apex",
+          "Leaving track width unused on exit"
+        ]
+      }
+    },
+    "T8": {
+      "name": "Sterlings",
+      "target_gear": 4,
+      "gear_change": "not stated",
+      "priority": "exit",
+      "driving_focus": [
+        "Work hard to bring the car back over and parallel to the white line ready for braking",
+        "Brake just before the orange Armco marker",
+        "Start to turn in after the white line which crosses the track",
+        "As soon as you are off the brake, feed in the power",
+        "Use the dip of the track to help support the car",
+        "You can use a little apex kerb",
+        "Use all of the exit kerb",
+        "A nice controlled bleed of the brake helps the rotation",
+        "Before the compression starts you should be feeding in the power",
+        "Think exit"
+      ],
+      "analysis_rules": {
+        "expected_brake_release": "controlled_bleed",
+        "expected_turn_in_reference": "after_crossing_white_line",
+        "expected_throttle_timing": "as_soon_as_off_brake",
+        "expected_exit_priority": true,
+        "common_errors": [
+          "Poor setup to the white line before braking",
+          "Turning in too early",
+          "Waiting too long to feed in power",
+          "Not using the support from the compression and dip"
+        ]
+      }
+    },
+    "T9": {
+      "name": "Clearways",
+      "target_gear": 5,
+      "gear_change": "not stated",
+      "priority": "exit",
+      "driving_focus": [
+        "Brake at the backslash board with a flat car parallel to the white line",
+        "Bleed off the brake and turn in at the start of the tarmac patch on the left",
+        "The apex is right at the crest",
+        "The apex point is where the inside kerb transitions from thick to thin",
+        "Be confident and run close to the white line",
+        "Be on the limit and against the kerb",
+        "The compression of the corner will help keep the car in",
+        "Use the brake release to help rotate before the apex",
+        "Apply the power well for a strong exit",
+        "Think exit"
+      ],
+      "analysis_rules": {
+        "expected_brake_shape": "flat_then_bleed_for_rotation",
+        "expected_rotation_timing": "before_apex",
+        "expected_apex_reference": "crest_and_kerb_transition",
+        "expected_exit_priority": true,
+        "common_errors": [
+          "Braking with the car not flat",
+          "Turning in too early or too late relative to the tarmac patch",
+          "Weak brake release so the car does not rotate before the apex",
+          "Not confident enough at the outside white line",
+          "Poor power application hurting the exit"
+        ]
+      }
+    }
+  },
+  "coverage": {
+    "booklet_has_explicit_corner_pages_for": [
+      "T1",
+      "T2",
+      "T3",
+      "T4",
+      "T5",
+      "T6",
+      "T7",
+      "T8",
+      "T9"
+    ],
+    "booklet_does_not_provide_explicit_corner_instruction_pages_for": [],
+    "notes": [
+      "The sector map on page 2 shows turns numbered 1 to 9",
+      "The booklet provides explicit corner instruction pages for every numbered turn shown"
+    ]
+  },
+  "integration_notes": {
+    "intended_use": [
+      "Join by POI section label",
+      "Use as context layer on top of delta analysis",
+      "Do not let advisory override measured data",
+      "Prefer advisory-based comments when a measured behaviour clearly conflicts with target technique"
+    ],
+    "example_checks": [
+      "If throttle pickup occurs materially after the stated target point, flag as late throttle relative to the booklet",
+      "If gear channel differs from target gear at corner minimum speed, flag gear mismatch",
+      "If brake release is prolonged where the booklet asks for short sharp braking or quick rotation, flag weak rotation setup",
+      "If exit speed is poor where the booklet repeatedly stresses exit, prioritise the exit-focused comment"
+    ]
+  }
+}

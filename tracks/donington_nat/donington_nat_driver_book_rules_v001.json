@@ -1,0 +1,213 @@
+{
+  "track_slug": "donington_nat",
+  "track_name": "Donington Park National",
+  "source": {
+    "document": "2026 Driver Booklet DON_NAT.pdf",
+    "source_type": "driver_booklet",
+    "version": "v001"
+  },
+  "general": {
+    "circuit_character": [
+      "Smooth, fast and undulating circuit",
+      "Momentum is critical",
+      "Good braking matters",
+      "Rotate the car with brake release",
+      "Strong exits are critical",
+      "Circuit is rhythm-based so first push may not be fastest"
+    ],
+    "surface_notes": [
+      "Surface has been resurfaced",
+      "Be wary of drop-step from tarmac edge to kerbs, especially when braking",
+      "Surface is smooth and kind on tyres"
+    ],
+    "tyre_warmup_notes": [
+      "Avoid slipping the front tyres",
+      "Keep energy high while warming fronts",
+      "Do not neglect the front-right tyre while warming"
+    ],
+    "track_limits": {
+      "monitored_exits": ["T1", "T4", "T7", "T10"],
+      "notes": [
+        "Track limits are monitored via sensors on the listed exits"
+      ]
+    }
+  },
+  "corners": {
+    "T1": {
+      "name": "Redgate",
+      "target_gear": 4,
+      "gear_change": "6th to 4th",
+      "priority": "exit",
+      "driving_focus": [
+        "Brake straight with flat wheel parallel to dotted line",
+        "Start to trail off brake as you turn in just before end of dotted line",
+        "Apex is just after access road on the right",
+        "Be back to full throttle by the apex",
+        "Use all apex kerb",
+        "You can use red/white exit kerb",
+        "Track limits sensor on the green",
+        "Brake late",
+        "Compress the corner",
+        "Keep coasting time to a minimum"
+      ],
+      "analysis_rules": {
+        "expected_rotation_style": "strong_entry_rotation",
+        "expected_brake_release": "well_timed_for_rotation",
+        "expected_throttle_timing": "flat_by_apex",
+        "expected_exit_priority": true,
+        "common_errors": [
+          "Too much coasting before apex",
+          "Weak entry rotation from slow brake release",
+          "Late return to throttle",
+          "Poor exit despite acceptable minimum speed"
+        ]
+      }
+    },
+    "T4": {
+      "name": "Old Hairpin",
+      "target_gear": 5,
+      "gear_change": "6th to 5th",
+      "priority": "exit",
+      "driving_focus": [
+        "Do not let car run more than half a car width from white line on exit of previous left",
+        "Aim at start of entry kerb and brake in straight line",
+        "Use a short sharp brake",
+        "Prep is critical",
+        "Turn in from white line just after start of entry kerb",
+        "Bleed gently off brake as you turn in",
+        "Start to add power before the apex to settle the car",
+        "Use all apex kerb",
+        "Get back to full throttle at the apex",
+        "Use all red/white exit kerb",
+        "Track limits sensor on the green but it is quite early so late green usage may be tolerated"
+      ],
+      "analysis_rules": {
+        "expected_rotation_style": "settled_with_early_power",
+        "expected_brake_shape": "short_sharp_then_bleed",
+        "expected_throttle_timing": "build_before_apex_then_full_at_apex",
+        "expected_exit_priority": true,
+        "common_errors": [
+          "Car not straight for braking",
+          "Late throttle so hill exit speed suffers",
+          "Not enough kerb usage at apex",
+          "Entry too open from poor setup on white line"
+        ]
+      }
+    },
+    "T6": {
+      "name": "McLean's",
+      "target_gear": 4,
+      "gear_change": "6th to 4th",
+      "priority": "exit",
+      "driving_focus": [
+        "Turn late through the left kink and line up with white line",
+        "Brake in a straight line just after the end of the kerb on the left",
+        "Trail off brake gently as you turn in",
+        "Apex is quite late",
+        "Be back to full throttle by the apex",
+        "If understeering you can take a little apex kerb to aid rotation",
+        "Kerb is high so do not take much",
+        "Use red/white kerb on exit",
+        "Track limits sensor on the green so you cannot run wide early",
+        "Controlled gradual rotation",
+        "Smooth brake release"
+      ],
+      "analysis_rules": {
+        "expected_rotation_style": "controlled_gradual_rotation",
+        "expected_brake_release": "smooth",
+        "expected_throttle_timing": "flat_by_apex",
+        "late_apex_required": true,
+        "common_errors": [
+          "Apexing too early",
+          "Trying to roll too much minimum speed",
+          "Not back to full throttle by apex",
+          "Exit compromised by early run wide"
+        ]
+      }
+    },
+    "T7": {
+      "name": "Coppice",
+      "target_gear": 4,
+      "gear_change": "5th to 4th",
+      "priority": "early_rotation_and_exit",
+      "driving_focus": [
+        "Avoid braking on the entry kerb",
+        "Brake in a straight line",
+        "Turn in gently using the crest to help rotate",
+        "Start to pick up power before apex to settle the car",
+        "Take all apex kerb",
+        "Let car run out to about 1m from white line on exit",
+        "Minimise scrub",
+        "Use only enough steering to stay about 1m from white line until exit kerb",
+        "You can use a little exit kerb",
+        "Manage pitch with pedal inputs",
+        "All rotation should happen before apex",
+        "Rotate and go"
+      ],
+      "analysis_rules": {
+        "expected_rotation_timing": "before_apex",
+        "expected_throttle_timing": "pickup_before_apex",
+        "expected_exit_style": "minimise_scrub_and_open_hands",
+        "common_errors": [
+          "Braking on entry kerb",
+          "Turning late causing oversteer",
+          "Dropping a wheel on exit",
+          "Too much steering scrub on exit",
+          "Throttle pickup too late to settle car"
+        ]
+      }
+    },
+    "T8-9": {
+      "name": "Goddards",
+      "target_gear": 4,
+      "gear_change": "6th to 4th",
+      "priority": "exit",
+      "driving_focus": [
+        "Brake hard in a straight line from the white line",
+        "Drop the brake as you turn in",
+        "Start to pick up throttle as you reach the first apex",
+        "Use all kerb at first apex right up to the bale",
+        "Use all red/white kerb at the second apex",
+        "Stay off sausage kerbs",
+        "Use red/white kerb on exit",
+        "Compress the corner",
+        "Get back to power to settle the rear and drive through the chicane",
+        "Think exit"
+      ],
+      "analysis_rules": {
+        "expected_rotation_style": "strong_entry_rotation",
+        "expected_brake_release": "quick_drop_for_rotation",
+        "expected_throttle_timing": "pickup_at_first_apex",
+        "expected_exit_priority": true,
+        "common_errors": [
+          "Not enough rotation on entry",
+          "Throttle pickup too late through chicane",
+          "Contact with sausage kerbs",
+          "Rear not settled through second phase"
+        ]
+      }
+    }
+  },
+  "coverage": {
+    "booklet_has_explicit_corner_pages_for": ["T1", "T4", "T6", "T7", "T8-9"],
+    "booklet_does_not_provide_explicit_corner_instruction_pages_for": ["T2", "T3", "T5"],
+    "notes": [
+      "Track management page shows numbered locations 1 to 9",
+      "Track limits note references T10, likely using championship numbering rather than the simplified map page"
+    ]
+  },
+  "integration_notes": {
+    "intended_use": [
+      "Join by POI section label",
+      "Use as context layer on top of delta analysis",
+      "Do not let advisory override measured data",
+      "Prefer advisory-based comments when a measured behaviour clearly conflicts with target technique"
+    ],
+    "example_checks": [
+      "If throttle pickup occurs materially after stated target point, flag as late throttle relative to booklet",
+      "If gear channel differs from target gear at corner minimum speed, flag gear mismatch",
+      "If brake release is prolonged where booklet asks for quick compression or sharp brake, flag weak rotation setup",
+      "If steering scrub remains high on exit where booklet says minimise scrub, flag exit inefficiency"
+    ]
+  }
+}

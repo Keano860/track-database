@@ -1,0 +1,371 @@
+{
+  "track_slug": "zandvoort_gp",
+  "track_name": "Zandvoort GP",
+  "source": {
+    "document": "2026 Driver Booklet ZAN.pdf",
+    "source_type": "driver_booklet",
+    "version": "v001"
+  },
+  "general": {
+    "circuit_character": [
+      "Fast, flowing and undulating circuit",
+      "Managing the undulations and using them well is key",
+      "Overtaking is difficult so qualifying performance is important",
+      "Strong braking feel and brake combining are critical for lap time",
+      "Well-managed weight transfer is important for confidence",
+      "Load the car, feel the weight transfer, then turn"
+    ],
+    "surface_notes": [
+      "The main straight is crowned",
+      "Be wary of bottoming when weaving or passing",
+      "Banking and camber are major tools for supporting the car through key corners"
+    ],
+    "tyre_warmup_notes": [
+      "LH tyres are predominantly used and carry high energy",
+      "Ensure the FR tyre is switched on before the first push lap",
+      "Avoid forcing the front tyres to grip before they are ready"
+    ],
+    "track_limits": {
+      "monitored_exits": [],
+      "notes": [
+        "No explicit track limits sensor page was provided in this booklet",
+        "Use normal circuit limit judgement and measured lap validity data where available"
+      ]
+    }
+  },
+  "corners": {
+    "T1": {
+      "name": "Tarzan",
+      "target_gear": 3,
+      "gear_change": "6th to 3rd",
+      "priority": "brake_combining_and_exit",
+      "driving_focus": [
+        "Brake straight with a flat wheel after the 100m board, aiming for 70m",
+        "Start to bleed the brake and turn in as the track starts to bank",
+        "Use the banking to support the car",
+        "The apex is further around the corner, looking for the end of the concrete barrier on the right",
+        "Avoid being too tight to the inside kerb because minimum speed will be too low",
+        "Use half of the exit kerb",
+        "Do not overuse the exit kerb because the car can bottom out",
+        "Modulate the brake bleed and combine well",
+        "Keep the FR on the edge of micro-locking",
+        "Use the slight gradient to keep the car loaded without forcing the fronts to grip"
+      ],
+      "analysis_rules": {
+        "expected_rotation_style": "banking_supported_brake_combining",
+        "expected_brake_release": "modulated_bleed_as_banking_starts",
+        "expected_line": "late_apex_looking_to_concrete_barrier",
+        "expected_exit_priority": true,
+        "banking_support_required": true,
+        "common_errors": [
+          "Brake bleed too abrupt or too late",
+          "Too tight to the inside kerb causing low minimum speed",
+          "Forcing the front tyres rather than using the banking",
+          "FR lock or excessive micro-locking",
+          "Using too much exit kerb and bottoming"
+        ]
+      }
+    },
+    "T2": {
+      "name": "Turn 2",
+      "target_gear": 4,
+      "gear_change": "4th gear",
+      "priority": "positioning_for_T3",
+      "driving_focus": [
+        "Stay left with the kerb",
+        "Do not be enticed to point in too early for the right",
+        "Turn in just before the end of the kerb",
+        "Aim to get behind the apex kerb",
+        "Keep high on the right",
+        "The target line is about one third from the white line",
+        "Use this corner to open the banked Turn 3"
+      ],
+      "analysis_rules": {
+        "expected_rotation_style": "positioning_corner",
+        "expected_turn_in": "just_before_end_of_kerb",
+        "expected_line": "stay_left_then_keep_high_right",
+        "sequence_priority": "open_bank_turn_3",
+        "common_errors": [
+          "Pointing in too early for the right",
+          "Not getting behind the apex kerb",
+          "Dropping too low on the right",
+          "Compromising Turn 3 entry"
+        ]
+      }
+    },
+    "T3": {
+      "name": "Banked Turn 3",
+      "target_gear": 4,
+      "gear_change": "4th gear",
+      "priority": "minimum_speed_and_exit",
+      "driving_focus": [
+        "Sustained G is key to keep the minimum speed up",
+        "Stay high on the banking but avoid crossing the white line",
+        "Be wary of opponents going low for a block pass",
+        "Do not fall too low because it is easy to lock the FL",
+        "Make sure to get off the brake",
+        "Load the car into the banking",
+        "Keep just below the white line",
+        "Be flat by the high-banking phase",
+        "Apply throttle quickly to build momentum, settle the car and get a strong exit",
+        "Use half of the exit kerb",
+        "The section between the two red lines has the most banking angle",
+        "Be cautious of a snap if going lower on the banking"
+      ],
+      "analysis_rules": {
+        "expected_rotation_style": "banking_supported_sustained_g",
+        "expected_brake_release": "early_release_to_avoid_FL_lock",
+        "expected_throttle_timing": "flat_while_high_on_banking",
+        "expected_line": "high_on_banking_just_below_white_line",
+        "expected_exit_priority": true,
+        "banking_support_required": true,
+        "common_errors": [
+          "Falling too low on the banking",
+          "Locking the FL from staying on brake too long",
+          "Crossing the white line at the top of the banking",
+          "Late throttle application which loses momentum",
+          "Going lower on the banking and triggering a snap"
+        ]
+      }
+    },
+    "T7": {
+      "name": "Turn 7",
+      "target_gear": 6,
+      "gear_change": "6th gear",
+      "priority": "confidence_and_commitment",
+      "driving_focus": [
+        "Arrive at the crest with a flat car",
+        "Use a small brake just after the kerb and pitch the car in",
+        "Turn at the access road",
+        "Do not turn in too late",
+        "Use the camber as the track drops away",
+        "Stay low and close to the white line",
+        "Look to pinch the start of the kerb",
+        "Avoid touching the inside kerb because it is very unsettling",
+        "If enough speed is carried, the car should just touch the exit kerb",
+        "Do not use too much exit kerb because you need to prepare for the following turn",
+        "Trust the car will be supported by the camber"
+      ],
+      "analysis_rules": {
+        "expected_rotation_style": "camber_supported_high_speed_pitch",
+        "expected_brake_shape": "small_brake_after_kerb",
+        "expected_turn_in": "at_access_road_not_too_late",
+        "expected_line": "low_close_to_white_line",
+        "expected_exit_style": "just_touch_exit_kerb",
+        "camber_support_required": true,
+        "common_errors": [
+          "Arriving at the crest with an unsettled car",
+          "Turning in too late",
+          "Missing the support from the camber",
+          "Touching the inside kerb and unsettling the car",
+          "Using too much exit kerb and compromising the next turn"
+        ]
+      }
+    },
+    "T8": {
+      "name": "Turn 8",
+      "target_gear": 5,
+      "gear_change": "5th gear",
+      "priority": "high_speed_rotation_and_exit",
+      "driving_focus": [
+        "Get behind the kerb on the left to open the entry",
+        "Be on the white line on entry",
+        "Turn in at the 50m board when the board is present",
+        "Be on power before the apex to settle the car",
+        "There is a slight bump so try to power through it",
+        "Carry the speed to the left",
+        "Follow the white line into the braking for T9",
+        "Drive the car with your feet",
+        "Use the free rotation from coming off the brake",
+        "Catch and settle the car by being fully on power by the apex"
+      ],
+      "analysis_rules": {
+        "expected_rotation_style": "free_rotation_from_brake_release_caught_with_throttle",
+        "expected_turn_in": "at_50m_board_if_present",
+        "expected_throttle_timing": "power_before_apex_full_by_apex",
+        "expected_exit_style": "carry_speed_left_and_follow_white_line_to_T9",
+        "expected_exit_priority": true,
+        "common_errors": [
+          "Not getting behind the left kerb on entry",
+          "Turning in without opening the entry",
+          "Late throttle pickup before the apex",
+          "Lifting or hesitating over the bump",
+          "Not carrying enough speed left into the T9 braking approach"
+        ]
+      }
+    },
+    "T9": {
+      "name": "Turn 9",
+      "target_gear": 3,
+      "gear_change": "3rd gear",
+      "priority": "precision_and_sequence_to_T10",
+      "driving_focus": [
+        "Braking is tough because there is a constant radius",
+        "Use all the track and work to release the brake",
+        "Start to apply power at the apex",
+        "Let the car run out",
+        "Leave no more than one car width to the white line",
+        "Work hard to bring the car back over to prepare for T10",
+        "Attack the corner precisely",
+        "Good footwork is important",
+        "Slightly straightening the wheel for braking can aid braking efficiency"
+      ],
+      "analysis_rules": {
+        "expected_rotation_style": "precise_constant_radius_rotation",
+        "expected_brake_release": "progressive_release_while_using_all_track",
+        "expected_throttle_timing": "apply_power_at_apex",
+        "sequence_priority": "prepare_for_T10",
+        "common_errors": [
+          "Overdriving the corner",
+          "Poor brake release through the constant radius",
+          "Running too close to the white line on exit",
+          "Failing to bring the car back for T10",
+          "Leaving steering lock in during braking"
+        ]
+      }
+    },
+    "T10": {
+      "name": "Turn 10",
+      "target_gear": 3,
+      "gear_change": "3rd gear",
+      "priority": "early_rotation_and_exit_to_chicane",
+      "driving_focus": [
+        "Braking is tough because the car is turning slightly",
+        "Use all the track and manage entry rotation with a good brake bleed-off",
+        "Leave a car width to the white line",
+        "Work to position the car pointing into the corner",
+        "Start to pick up power and keep vision up",
+        "Let the car run out to the exit kerb",
+        "Use a little exit kerb nearer the end if enough minimum speed is carried",
+        "The corner is mainly dictated by how T9 is negotiated",
+        "Do not rush the turn-in",
+        "The track widens a lot on exit",
+        "Rotate well early, get the power down and remove steering lock",
+        "Build a good exit heading into the chicane"
+      ],
+      "analysis_rules": {
+        "expected_rotation_style": "early_rotation_managed_by_brake_bleed",
+        "expected_brake_release": "good_bleed_off_while_slightly_turning",
+        "expected_throttle_timing": "pickup_after_car_points_into_corner",
+        "expected_exit_style": "remove_steering_lock_and_use_widening_exit",
+        "sequence_dependency": "T9_positioning",
+        "common_errors": [
+          "Rushing the turn-in",
+          "Poor positioning from T9",
+          "Not rotating early enough",
+          "Late power pickup",
+          "Keeping too much steering lock on exit"
+        ]
+      }
+    },
+    "T11": {
+      "name": "Turn 11",
+      "target_gear": 3,
+      "gear_change": "3rd gear",
+      "priority": "braking_prep_and_min_speed",
+      "driving_focus": [
+        "Drive in the middle of the gantry to ensure good braking prep",
+        "Brake at the LED flag board on the left",
+        "Brake just after the start of the kerb",
+        "Keep a flat car while braking",
+        "Shave the brake and carry the speed in",
+        "Turn in before the end of the kerb",
+        "Use the inside kerb",
+        "Get in and low",
+        "Ensure the FL is on the kerb to keep the car hooked in",
+        "If the car can go easily flat between T11 and T12, the minimum speed through T11 is too low",
+        "In the wet, the orange sausage kerb can be used"
+      ],
+      "analysis_rules": {
+        "expected_rotation_style": "low_inside_kerb_hooked_rotation",
+        "expected_brake_point": "LED_flag_board_left_just_after_start_of_kerb",
+        "expected_brake_shape": "shave_brake_and_carry_speed",
+        "expected_line": "middle_of_gantry_then_low_inside",
+        "minimum_speed_check": "easy_flat_between_T11_and_T12_implies_T11_min_speed_too_low",
+        "common_errors": [
+          "Poor approach position under the gantry",
+          "Over-slowing T11",
+          "Missing the inside kerb",
+          "Not getting the FL hooked on the kerb",
+          "Failing to carry enough speed in"
+        ]
+      }
+    },
+    "T12": {
+      "name": "Turn 12",
+      "target_gear": 4,
+      "gear_change": "4th gear",
+      "priority": "exit_to_T1",
+      "driving_focus": [
+        "Arrive parallel to the white line with a flat car before braking",
+        "Brake at the LED digi flag board",
+        "Turn in before the kerb or white line",
+        "Turn in as the brake is released",
+        "Use the benefit of the camber",
+        "Use no more than half of the exit kerb",
+        "Avoid compromising the run down to T1",
+        "Use a controlled brake bleed-off to pitch the car into the camber",
+        "As the camber supports the car, add steering and pick up power",
+        "A good exit is critical"
+      ],
+      "analysis_rules": {
+        "expected_rotation_style": "controlled_bleed_into_camber",
+        "expected_brake_point": "LED_digi_flag_board",
+        "expected_brake_release": "controlled_bleed_as_turn_in_starts",
+        "expected_throttle_timing": "pickup_as_camber_supports_car",
+        "expected_exit_priority": true,
+        "common_errors": [
+          "Arriving not parallel to the white line",
+          "Braking with the car unsettled",
+          "Late turn-in after the kerb or white line",
+          "Not using the camber support",
+          "Using too much exit kerb and compromising the run to T1"
+        ]
+      }
+    }
+  },
+  "coverage": {
+    "booklet_has_explicit_corner_pages_for": [
+      "T1",
+      "T2",
+      "T3",
+      "T7",
+      "T8",
+      "T9",
+      "T10",
+      "T11",
+      "T12"
+    ],
+    "booklet_does_not_provide_explicit_corner_instruction_pages_for": [
+      "T4",
+      "T5",
+      "T6",
+      "T13",
+      "T14"
+    ],
+    "notes": [
+      "The sectors and gear map shows numbered locations 1 to 14",
+      "The booklet provides full driving instruction pages for T1, T2, T3, T7, T8, T9, T10, T11 and T12",
+      "The booklet includes exterior view support pages for T3, T8, T9-T10 and T11",
+      "The booklet includes a Turn 3 banking-angle page showing the highest banking-angle section between two red reference lines",
+      "Missing turns should not be inferred beyond normal measured data and POI segmentation"
+    ]
+  },
+  "integration_notes": {
+    "intended_use": [
+      "Join by POI section label",
+      "Use as context layer on top of delta analysis",
+      "Do not let advisory override measured data",
+      "Prefer advisory-based comments when a measured behaviour clearly conflicts with target technique"
+    ],
+    "example_checks": [
+      "If throttle pickup occurs materially after the stated target point, flag as late throttle relative to booklet",
+      "If gear channel differs from target gear at corner minimum speed, flag gear mismatch",
+      "If brake release is prolonged where the booklet asks for quick release, good bleed-off or brake shaving, flag weak rotation setup",
+      "If line position conflicts with a stated banking, camber or kerb-support target, flag line positioning loss",
+      "If steering scrub remains high on exit where the booklet asks for power down and steering lock removal, flag exit inefficiency",
+      "If T3 line is too low on the banking, flag snap risk and reduced banking support",
+      "If T11 to T12 is easily flat, flag likely under-commitment or low minimum speed at T11"
+    ]
+  }
+}

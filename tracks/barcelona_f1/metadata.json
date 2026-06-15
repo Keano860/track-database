@@ -3,5 +3,20 @@
   "slug": "barcelona_f1",
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
-  "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later."
+  "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later.",
+  "runsheet_reference": {
+    "source": "Runsheet.xlsm/database",
+    "circuitName": "Barcelona F1",
+    "circuitLengthKm": 4.65,
+    "fuelConsumptionKgPerLap": 0.97,
+    "timingOffsetSeconds": 60.0,
+    "referenceSectorsSeconds": [
+      30.8,
+      41.3,
+      28.9
+    ],
+    "referenceLapTimeSeconds": 42.0,
+    "sectorCount": 3,
+    "circuitCode": "BarcelonaF1"
+  }
 }

@@ -3,5 +3,15 @@
   "slug": "pembrey",
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
-  "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later."
+  "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later.",
+  "runsheet_reference": {
+    "source": "Runsheet.xlsm/database",
+    "circuitName": "Pembrey",
+    "circuitLengthKm": 2.34,
+    "fuelConsumptionKgPerLap": 0.48,
+    "timingOffsetSeconds": 0.0,
+    "referenceLapTimeSeconds": 54.1,
+    "sectorCount": 0,
+    "circuitCode": "Pembrey"
+  }
 }

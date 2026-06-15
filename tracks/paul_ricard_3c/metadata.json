@@ -3,5 +3,12 @@
   "slug": "paul_ricard_3c",
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
-  "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later."
+  "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later.",
+  "runsheet_reference": {
+    "source": "Runsheet.xlsm/database",
+    "circuitName": "Paul Ricard 3C",
+    "circuitLengthKm": 3.841,
+    "sectorCount": 0,
+    "circuitCode": "PaulRicard3C"
+  }
 }

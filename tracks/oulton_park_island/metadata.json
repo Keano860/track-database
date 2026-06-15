@@ -3,5 +3,19 @@
   "slug": "oulton_park_island",
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
-  "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later."
+  "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later.",
+  "runsheet_reference": {
+    "source": "Runsheet.xlsm/database",
+    "circuitName": "Oulton Park Island",
+    "circuitLengthKm": 3.6,
+    "fuelConsumptionKgPerLap": 0.75,
+    "timingOffsetSeconds": 60.0,
+    "referenceSectorsSeconds": [
+      23.156,
+      30.637,
+      26.116
+    ],
+    "sectorCount": 3,
+    "circuitCode": "OultonParkIsland"
+  }
 }

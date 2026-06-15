@@ -3,5 +3,18 @@
   "slug": "silverstone_nat",
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
-  "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later."
+  "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later.",
+  "runsheet_reference": {
+    "source": "Runsheet.xlsm/database",
+    "circuitName": "Silverstone Nat",
+    "circuitLengthKm": 2.64,
+    "fuelConsumptionKgPerLap": 0.45,
+    "referenceSectorsSeconds": [
+      13.82,
+      18.24,
+      21.79
+    ],
+    "sectorCount": 3,
+    "circuitCode": "SilverstoneNat"
+  }
 }

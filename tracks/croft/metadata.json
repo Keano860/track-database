@@ -3,5 +3,19 @@
   "slug": "croft",
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
-  "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later."
+  "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later.",
+  "runsheet_reference": {
+    "source": "Runsheet.xlsm/database",
+    "circuitName": "Croft",
+    "circuitLengthKm": 3.43,
+    "fuelConsumptionKgPerLap": 0.68,
+    "timingOffsetSeconds": 60.0,
+    "referenceSectorsSeconds": [
+      23.899,
+      31.691,
+      21.781
+    ],
+    "sectorCount": 3,
+    "circuitCode": "Croft"
+  }
 }

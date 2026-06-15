@@ -3,5 +3,20 @@
   "slug": "jerez",
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
-  "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later."
+  "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later.",
+  "runsheet_reference": {
+    "source": "Runsheet.xlsm/database",
+    "circuitName": "Jerez",
+    "circuitLengthKm": 4.43,
+    "fuelConsumptionKgPerLap": 0.95,
+    "timingOffsetSeconds": 60.0,
+    "referenceSectorsSeconds": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "referenceLapTimeSeconds": 43.4,
+    "sectorCount": 3,
+    "circuitCode": "Jerez"
+  }
 }

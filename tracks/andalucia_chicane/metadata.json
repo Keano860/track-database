@@ -3,5 +3,14 @@
   "slug": "andalucia_chicane",
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
-  "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later."
+  "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later.",
+  "runsheet_reference": {
+    "source": "Runsheet.xlsm/database",
+    "circuitName": "Andalucia Chicane",
+    "circuitLengthKm": 5.02,
+    "fuelConsumptionKgPerLap": 1.05,
+    "timingOffsetSeconds": 60.0,
+    "sectorCount": 0,
+    "circuitCode": "AndaluciaChicane"
+  }
 }

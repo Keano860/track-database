@@ -3,5 +3,20 @@
   "slug": "silverstone_old_gp",
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpg",
-  "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later."
+  "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later.",
+  "runsheet_reference": {
+    "source": "Runsheet.xlsm/database",
+    "circuitName": "Silverstone Old GP",
+    "circuitLengthKm": 5.8,
+    "fuelConsumptionKgPerLap": 1.16,
+    "timingOffsetSeconds": 120.0,
+    "referenceSectorsSeconds": [
+      36.976,
+      62.232,
+      22.15
+    ],
+    "referenceLapTimeSeconds": 47.4,
+    "sectorCount": 3,
+    "circuitCode": "SilverstoneOldGP"
+  }
 }

@@ -3,5 +3,19 @@
   "slug": "snetterton_300",
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
-  "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later."
+  "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later.",
+  "runsheet_reference": {
+    "source": "Runsheet.xlsm/database",
+    "circuitName": "Snetterton 300",
+    "circuitLengthKm": 4.78,
+    "fuelConsumptionKgPerLap": 0.96,
+    "timingOffsetSeconds": 60.0,
+    "referenceSectorsSeconds": [
+      33.485,
+      38.452,
+      35.126
+    ],
+    "sectorCount": 3,
+    "circuitCode": "Snetterton300"
+  }
 }

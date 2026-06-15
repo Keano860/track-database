@@ -3,5 +3,19 @@
   "slug": "zandvoort",
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
-  "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later."
+  "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later.",
+  "runsheet_reference": {
+    "source": "Runsheet.xlsm/database",
+    "circuitName": "Zandvoort",
+    "circuitLengthKm": 4.3,
+    "fuelConsumptionKgPerLap": 0.86,
+    "timingOffsetSeconds": 60.0,
+    "referenceSectorsSeconds": [
+      33.128,
+      33.4,
+      29.1
+    ],
+    "sectorCount": 3,
+    "circuitCode": "Zandvoort"
+  }
 }

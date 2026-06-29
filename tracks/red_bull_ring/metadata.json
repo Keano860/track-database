@@ -1,6 +1,8 @@
 {
   "track_name": "Red Bull Ring",
   "slug": "red_bull_ring",
+  "latitude": 47.2197,
+  "longitude": 14.7647,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.png",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later.",
@@ -9,7 +11,7 @@
     "circuitName": "Red Bull Ring",
     "circuitLengthKm": 4.318,
     "fuelConsumptionKgPerLap": 0.86,
-    "timingOffsetSeconds": 60.0,
+    "timingOffsetSeconds": 60,
     "sectorCount": 0,
     "circuitCode": "RedBullRing"
   }

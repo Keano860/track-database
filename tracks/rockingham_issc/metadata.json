@@ -1,6 +1,8 @@
 {
   "track_name": "Rockingham ISSC",
   "slug": "rockingham_issc",
+  "latitude": 52.515,
+  "longitude": -0.6575,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later."

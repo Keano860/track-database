@@ -1,6 +1,8 @@
 {
   "track_name": "Bedford West",
   "slug": "bedford_west",
+  "latitude": 52.23361,
+  "longitude": -0.47222,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later."

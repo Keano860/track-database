@@ -1,6 +1,8 @@
 {
   "track_name": "Donington Nat",
   "slug": "donington_nat",
+  "latitude": 52.8306,
+  "longitude": -1.3753,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.png",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later.",
@@ -9,7 +11,7 @@
     "circuitName": "Donington Nat",
     "circuitLengthKm": 3.15,
     "fuelConsumptionKgPerLap": 0.65,
-    "timingOffsetSeconds": 60.0,
+    "timingOffsetSeconds": 60,
     "referenceSectorsSeconds": [
       19.012,
       34.024,

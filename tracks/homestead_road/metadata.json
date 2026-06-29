@@ -1,6 +1,8 @@
 {
   "track_name": "Homestead Road",
   "slug": "homestead_road",
+  "latitude": 25.451,
+  "longitude": -80.4089,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.png",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later."

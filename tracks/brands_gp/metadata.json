@@ -1,6 +1,8 @@
 {
   "track_name": "Brands GP",
   "slug": "brands_gp",
+  "latitude": 51.356944,
+  "longitude": 0.263056,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later.",
@@ -9,7 +11,7 @@
     "circuitName": "Brands GP",
     "circuitLengthKm": 3.981,
     "fuelConsumptionKgPerLap": 0.75,
-    "timingOffsetSeconds": 60.0,
+    "timingOffsetSeconds": 60,
     "referenceSectorsSeconds": [
       26.523,
       15.701,

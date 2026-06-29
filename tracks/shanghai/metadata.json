@@ -1,6 +1,8 @@
 {
   "track_name": "Shanghai",
   "slug": "shanghai",
+  "latitude": 31.3389,
+  "longitude": 121.2197,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later."

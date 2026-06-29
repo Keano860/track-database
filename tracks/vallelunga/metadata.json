@@ -1,6 +1,8 @@
 {
   "track_name": "Vallelunga",
   "slug": "vallelunga",
+  "latitude": 42.1597,
+  "longitude": 12.3719,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.png",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later."

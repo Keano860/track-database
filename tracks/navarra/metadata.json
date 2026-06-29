@@ -1,6 +1,8 @@
 {
   "track_name": "Navarra",
   "slug": "navarra",
+  "latitude": 42.5619,
+  "longitude": -2.1686,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later.",
@@ -9,7 +11,7 @@
     "circuitName": "Navarra",
     "circuitLengthKm": 4.3,
     "fuelConsumptionKgPerLap": 0.98,
-    "timingOffsetSeconds": 60.0,
+    "timingOffsetSeconds": 60,
     "referenceSectorsSeconds": [
       26.364,
       22.962,

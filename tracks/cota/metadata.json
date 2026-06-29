@@ -1,6 +1,8 @@
 {
   "track_name": "COTA",
   "slug": "cota",
+  "latitude": 30.1328,
+  "longitude": -97.6411,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later."

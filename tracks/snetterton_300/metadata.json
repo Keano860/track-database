@@ -1,6 +1,8 @@
 {
   "track_name": "Snetterton 300",
   "slug": "snetterton_300",
+  "latitude": 52.4636,
+  "longitude": 0.945,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later.",
@@ -9,7 +11,7 @@
     "circuitName": "Snetterton 300",
     "circuitLengthKm": 4.78,
     "fuelConsumptionKgPerLap": 0.96,
-    "timingOffsetSeconds": 60.0,
+    "timingOffsetSeconds": 60,
     "referenceSectorsSeconds": [
       33.485,
       38.452,

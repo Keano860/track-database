@@ -1,6 +1,8 @@
 {
   "track_name": "Portimao",
   "slug": "portimao",
+  "latitude": 37.231944,
+  "longitude": -8.628611,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later.",
@@ -8,8 +10,8 @@
     "source": "Runsheet.xlsm/database",
     "circuitName": "Portimao",
     "circuitLengthKm": 4.65,
-    "fuelConsumptionKgPerLap": 1.0,
-    "timingOffsetSeconds": 60.0,
+    "fuelConsumptionKgPerLap": 1,
+    "timingOffsetSeconds": 60,
     "referenceSectorsSeconds": [
       33.001,
       33.078,

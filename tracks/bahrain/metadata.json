@@ -1,6 +1,8 @@
 {
   "track_name": "Bahrain",
   "slug": "bahrain",
+  "latitude": 26.0325,
+  "longitude": 50.5106,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later.",

@@ -19,6 +19,16 @@ tracks/
 - `metadata.json` stores track-level metadata
 - `poi.csv` stores corner and section point-of-interest definitions
 
+Each `metadata.json` includes nullable WGS84 circuit coordinates for the
+dashboard weather integration. Replace the placeholders with decimal degrees:
+
+```json
+{
+  "latitude": 52.4636,
+  "longitude": 0.9450
+}
+```
+
 ## Runsheet reference schema
 
 When a circuit exists in the legacy Runsheet workbook, `metadata.json` also
@@ -45,5 +55,6 @@ legacy workbook without overwriting maps, POIs, names, or notes.
 ## Next steps
 
 1. Review each `metadata.json` and replace placeholder names where needed
-2. Populate each `poi.csv`
-3. Add optional overlay config files later if needed
+2. Populate each circuit `latitude` and `longitude`
+3. Populate each `poi.csv`
+4. Add optional overlay config files later if needed

@@ -1,6 +1,8 @@
 {
   "track_name": "Cremona",
   "slug": "cremona",
+  "latitude": 45.085433,
+  "longitude": 10.312014,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later."

@@ -1,6 +1,8 @@
 {
   "track_name": "Hungaroring",
   "slug": "hungaroring",
+  "latitude": 47.5819,
+  "longitude": 19.2506,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later."

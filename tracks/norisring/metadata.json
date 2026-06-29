@@ -1,6 +1,8 @@
 {
   "track_name": "Norisring",
   "slug": "norisring",
+  "latitude": 49.4269,
+  "longitude": 11.1256,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpg",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later."

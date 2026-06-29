@@ -1,6 +1,8 @@
 {
   "track_name": "Qatar",
   "slug": "qatar",
+  "latitude": 25.49,
+  "longitude": 51.4542,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later."

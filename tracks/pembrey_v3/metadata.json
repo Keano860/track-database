@@ -1,6 +1,8 @@
 {
   "track_name": "Pembrey V3",
   "slug": "pembrey_v3",
+  "latitude": 51.705556,
+  "longitude": -4.320556,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later.",
@@ -9,7 +11,7 @@
     "circuitName": "Pembrey v3",
     "circuitLengthKm": 2.425,
     "fuelConsumptionKgPerLap": 0.51,
-    "timingOffsetSeconds": 0.0,
+    "timingOffsetSeconds": 0,
     "sectorCount": 0,
     "circuitCode": "Pembreyv3"
   }

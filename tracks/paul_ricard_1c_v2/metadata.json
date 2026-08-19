@@ -1,6 +1,8 @@
 {
   "track_name": "Paul Ricard 1c V2",
   "slug": "paul_ricard_1c_v2",
+  "latitude": 43.2506,
+  "longitude": 5.7917,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpg",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later.",
@@ -9,11 +11,11 @@
     "circuitName": "Paul Ricard 1C-V2",
     "circuitLengthKm": 5.842,
     "fuelConsumptionKgPerLap": 1.2,
-    "timingOffsetSeconds": 120.0,
+    "timingOffsetSeconds": 120,
     "referenceSectorsSeconds": [
-      1.0,
-      1.0,
-      1.0
+      1,
+      1,
+      1
     ],
     "referenceLapTimeSeconds": 5.4,
     "sectorCount": 3,

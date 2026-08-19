@@ -1,6 +1,8 @@
 {
   "track_name": "Monza",
   "slug": "monza",
+  "latitude": 45.6217,
+  "longitude": 9.2897,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later.",

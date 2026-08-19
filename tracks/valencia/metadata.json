@@ -1,6 +1,8 @@
 {
   "track_name": "Valencia",
   "slug": "valencia",
+  "latitude": 39.4844,
+  "longitude": -0.6305,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later.",
@@ -9,11 +11,11 @@
     "circuitName": "Valencia",
     "circuitLengthKm": 3.99,
     "fuelConsumptionKgPerLap": 0.9,
-    "timingOffsetSeconds": 60.0,
+    "timingOffsetSeconds": 60,
     "referenceSectorsSeconds": [
-      1.0,
-      1.0,
-      1.0
+      1,
+      1,
+      1
     ],
     "referenceLapTimeSeconds": 32.6,
     "sectorCount": 3,

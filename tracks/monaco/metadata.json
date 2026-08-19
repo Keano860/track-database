@@ -1,6 +1,8 @@
 {
   "track_name": "Monaco",
   "slug": "monaco",
+  "latitude": 43.7347,
+  "longitude": 7.4206,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpg",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later."

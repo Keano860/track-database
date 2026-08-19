@@ -1,6 +1,8 @@
 {
   "track_name": "Andalucia",
   "slug": "andalucia",
+  "latitude": 37.085278,
+  "longitude": -2.265833,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later.",

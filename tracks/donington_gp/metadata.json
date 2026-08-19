@@ -1,6 +1,8 @@
 {
   "track_name": "Donington GP",
   "slug": "donington_gp",
+  "latitude": 52.8306,
+  "longitude": -1.3753,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpg",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later.",
@@ -9,7 +11,7 @@
     "circuitName": "Donington GP",
     "circuitLengthKm": 4.02,
     "fuelConsumptionKgPerLap": 0.86,
-    "timingOffsetSeconds": 60.0,
+    "timingOffsetSeconds": 60,
     "referenceSectorsSeconds": [
       19.557,
       34.233,

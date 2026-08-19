@@ -1,6 +1,8 @@
 {
   "track_name": "Zandvoort",
   "slug": "zandvoort",
+  "latitude": 52.3888,
+  "longitude": 4.5409,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later.",
@@ -9,7 +11,7 @@
     "circuitName": "Zandvoort",
     "circuitLengthKm": 4.3,
     "fuelConsumptionKgPerLap": 0.86,
-    "timingOffsetSeconds": 60.0,
+    "timingOffsetSeconds": 60,
     "referenceSectorsSeconds": [
       33.128,
       33.4,

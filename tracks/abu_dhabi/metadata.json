@@ -1,6 +1,8 @@
 {
   "track_name": "Abu Dhabi",
   "slug": "abu_dhabi",
+  "latitude": 24.467222,
+  "longitude": 54.603056,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later.",
@@ -8,7 +10,7 @@
     "source": "Runsheet.xlsm/database",
     "circuitName": "Abu Dhabi",
     "circuitLengthKm": 5.281,
-    "timingOffsetSeconds": 60.0,
+    "timingOffsetSeconds": 60,
     "referenceSectorsSeconds": [
       24.75,
       50.15,

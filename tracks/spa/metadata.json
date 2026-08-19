@@ -1,6 +1,8 @@
 {
   "track_name": "Spa",
   "slug": "spa",
+  "latitude": 50.4372,
+  "longitude": 5.9714,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later.",
@@ -9,7 +11,7 @@
     "circuitName": "Spa",
     "circuitLengthKm": 7.01,
     "fuelConsumptionKgPerLap": 1.33,
-    "timingOffsetSeconds": 120.0,
+    "timingOffsetSeconds": 120,
     "sectorCount": 0,
     "circuitCode": "Spa"
   }

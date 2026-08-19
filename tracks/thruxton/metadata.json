@@ -1,6 +1,8 @@
 {
   "track_name": "Thruxton",
   "slug": "thruxton",
+  "latitude": 51.2072,
+  "longitude": -1.5989,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later.",
@@ -9,7 +11,7 @@
     "circuitName": "Thruxton",
     "circuitLengthKm": 3.79,
     "fuelConsumptionKgPerLap": 0.7,
-    "timingOffsetSeconds": 60.0,
+    "timingOffsetSeconds": 60,
     "referenceSectorsSeconds": [
       23.66,
       18.695,

@@ -1,6 +1,8 @@
 {
   "track_name": "Brands Indy",
   "slug": "brands_indy",
+  "latitude": 51.356944,
+  "longitude": 0.263056,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later.",
@@ -9,12 +11,12 @@
     "circuitName": "Brands Indy",
     "circuitLengthKm": 1.94,
     "fuelConsumptionKgPerLap": 0.41,
-    "timingOffsetSeconds": 0.0,
+    "timingOffsetSeconds": 0,
     "referenceSectorsSeconds": [
       26.39,
       18.1
     ],
-    "referenceLapTimeSeconds": 17.0,
+    "referenceLapTimeSeconds": 17,
     "sectorCount": 2,
     "circuitCode": "BrandsIndy"
   }

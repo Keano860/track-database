@@ -1,6 +1,8 @@
 {
   "track_name": "Knockhill",
   "slug": "knockhill",
+  "latitude": 56.13,
+  "longitude": -3.5083,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later.",
@@ -9,7 +11,7 @@
     "circuitName": "Knockhill",
     "circuitLengthKm": 2.092,
     "fuelConsumptionKgPerLap": 0.38,
-    "timingOffsetSeconds": 0.0,
+    "timingOffsetSeconds": 0,
     "referenceSectorsSeconds": [
       15.504,
       18.443,

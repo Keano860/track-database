@@ -1,6 +1,8 @@
 {
   "track_name": "Misano",
   "slug": "misano",
+  "latitude": 43.9614,
+  "longitude": 12.6842,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpg",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later."

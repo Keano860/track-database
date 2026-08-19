@@ -1,6 +1,8 @@
 {
   "track_name": "Nurburgring Short",
   "slug": "nurburgring_short",
+  "latitude": 50.3356,
+  "longitude": 6.9475,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later."

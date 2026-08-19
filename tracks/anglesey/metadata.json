@@ -1,6 +1,8 @@
 {
   "track_name": "Anglesey",
   "slug": "anglesey",
+  "latitude": 53.190042,
+  "longitude": -4.497661,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later.",
@@ -9,7 +11,7 @@
     "circuitName": "Anglesey",
     "circuitLengthKm": 3.3,
     "fuelConsumptionKgPerLap": 0.7,
-    "timingOffsetSeconds": 60.0,
+    "timingOffsetSeconds": 60,
     "sectorCount": 0,
     "circuitCode": "Anglesey"
   }

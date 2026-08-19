@@ -1,6 +1,8 @@
 {
   "track_name": "Albacete",
   "slug": "albacete",
+  "latitude": 39.007817,
+  "longitude": -1.7959,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later."

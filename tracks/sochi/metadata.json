@@ -1,6 +1,8 @@
 {
   "track_name": "Sochi",
   "slug": "sochi",
+  "latitude": 43.4057,
+  "longitude": 39.9578,
   "source_repo": "https://github.com/Keano860/track-database",
   "map_file": "map.jpeg",
   "notes": "Placeholder metadata generated from extracted runsheet map filename. Review and enrich later."
